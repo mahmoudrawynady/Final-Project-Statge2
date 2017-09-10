@@ -1,2 +1,2 @@
 # Final-Project-Statge2
-This repo for Final project Satage2 The World app in android developer nanodegree with udacity. 
+This is the code for projec 6 in Udacity's Android Developer Nanodegree. to complete this project go to Android developer nanodegree course with Udacity https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801
