@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="horizontal"
+    tools:context="com.example.kashasha.theworld.UI.MainActivity"
+    android:id="@+id/lin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    <fragment
+        android:id="@+id/mainfragment"
+        android:name="com.example.kashasha.theworld.UI.MainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.5"/>
+
+    <fragment
+        android:id="@+id/detaifragment"
+        android:name="com.example.kashasha.theworld.UI.DetailsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.5"/>
+</LinearLayout>
+    <ProgressBar
+        android:id="@+id/par"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="175dp"
+        android:layout_gravity="left"/>
+</FrameLayout>

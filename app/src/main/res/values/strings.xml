@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">The World</string>
+    <string name="africa" translatable="true">Africa</string>
+    <string name="asia" translatable="true">Asia</string>
+    <string name="europe" translatable="true">Europe</string>
+    <string name="americas" translatable="true">Americas</string>
+    <string name="bundle_key" translatable="false">bundlekey</string>
+    <string name="extra_key" translatable="false">extrakey</string>
+    <string name="data_enabled" translatable="false">dataenabled</string>
+    <string name="id" translatable="false">id</string>
+    <string name="title" translatable="false">title</string>
+    <string name="type" translatable="false">type</string>
+    <string name="connection_message">There is no Connection so the data will be loaded locally</string>
+    <string name="connection_problem">Thre is a problem on gettind data check the Connection</string>
+    <string name="lat" translatable="false">lat</string>
+    <string name="lng" translatable="false">lng</string>
+    <string name="preference_key" translatable="false">preference</string>
+    <string name="name" translatable="false">name</string>
+    <string name="oceania" translatable="true">Oceania</string>
+    <string name="map_data" translatable="false">mapdata</string>
+    <string name="card_desc">This Card for Country Flag and Name, Click it for Details</string>
+    <string name="item_desc">This Card to show Country Details</string>
+    <string name="kontinental_desc">This Image for kontinental Image</string>
+    <string name="flag_desc">This Image for Country Flag</string>
+    <string name="CountryWidget" translatable="false">CountryWidget</string>
+    <string-array name="detailsLabels" translatable="false"  >
+        <item >Capital</item>
+        <item>SubRegion</item>
+        <item>Population</item>
+        <item>Language</item>
+        <item>TimeZone</item>
+        <item>currency</item>
+        <item>CallingCode</item>
+    </string-array>
+    <string-array name="regions" translatable="false">
+        <item>https://restcountries.eu/rest/v2/region/africa</item>
+        <item>https://restcountries.eu/rest/v2/region/asia</item>
+        <item>https://restcountries.eu/rest/v2/region/europe</item>
+        <item>https://restcountries.eu/rest/v2/region/americas</item>
+        <item>https://restcountries.eu/rest/v2/region/oceania</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

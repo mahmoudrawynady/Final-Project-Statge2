@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="africa">افريقيا</string>
+    <string name="asia">اسيا</string>
+    <string name="europe">اوروبا</string>
+    <string name="americas">امريكا</string>
+    <string name="connection_message">"لا يوجد اتصال بالانترنت سيتم تحميل الداتا من قاعدة البيانات "</string>
+    <string name="connection_problem">"يوجد مشكلة فى البيانات القادمة تحقق من الاتصال بالانترنت "</string>
+    <string name="oceania">اوقيانوس</string>
+    <string name="card_desc">"هذا الكارت لعرض علم البلد واسمها "</string>
+    <string name="item_desc">"هذا الكارت لعرض تفاصيل البلد "</string>
+    <string name="kontinental_desc">"هذه الصورة لصور القارات "</string>
+    <string name="flag_desc">"هذه الصورة لعلم البلد "</string>
+    <string name="title_activity_maps">"خريطة "</string>
+</resources>

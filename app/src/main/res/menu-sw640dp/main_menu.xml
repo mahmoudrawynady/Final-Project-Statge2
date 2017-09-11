@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share"
+        android:icon="@mipmap/ic_action_share"
+        android:title=""
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/place"
+        android:icon="@mipmap/ic_action_place"
+        android:title=""
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/menu2"
+        android:icon="@mipmap/ic_action_more_vert"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <group
+                android:id="@+id/group2"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/africa"
+                    android:checked="true"
+                    android:title="@string/africa"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/asia"
+                    android:title="@string/asia"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/europe"
+                    android:title="@string/europe"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/americas"
+                    android:title="@string/americas"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/oceania"
+                    android:title="@string/oceania"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+</menu>
